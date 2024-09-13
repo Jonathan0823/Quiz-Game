@@ -30,10 +30,10 @@ for question in questions:
 
     guess.append(input("Enter (A, B, C, or D): ").upper())
     if guess[quistion_num] == answers[quistion_num]:
-        print("Correct!")
+        print("\nCorrect!")
         score += 1
     else:
-        print("Wrong!")
+        print("\nWrong!")
     print("Score: ", score)
     print()
     time.sleep(1)
